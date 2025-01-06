@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/63bb807598.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header Page -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/myLogo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Nischal</span> <br> Shrestha from Nepal</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m Nischal, a dedicated web development student with a focus on front-end and back-end
+                        technologies. I’m proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB, with a
+                        passion for creating responsive and scalable web applications. <br> Currently, I’m expanding my
+                        skills in full-stack development, applying my knowledge to build dynamic, user-focused projects.
+                        I’m eager to collaborate and grow within the ever-evolving field of web development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br> Strong knowledge of semantic HTML, building accessible and
+                                well-structured web pages.</li>
+                            <li><span>CSS</span><br>Proficient in styling responsive layouts, using Flexbox, Grid, and
+                                frameworks like Bootstrap.</li>
+                            <li><span>JavaScript</span><br>Experienced with vanilla JavaScript, DOM manipulation, and
+                                working with ES6+ features.</li>
+                            <li><span>Node.js</span><br>Developing server-side applications, handling APIs, and working
+                                with Express.js.</li>
+                            <li><span>React</span><br>Building interactive user interfaces with React.js, managing state
+                                and props.</li>
+                            <li><span>MongoDB</span><br>Experience with NoSQL databases for building data-driven
+                                applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Simple Quiz App</span><br>Built a simple quiz app using HTML, CSS, and JavaScript
+                                for interactive user experience.</li>
+                            <li><span>Drum Kit</span><br>Created an interactive drum kit using JavaScript for sound
+                                effects and key press events.</li>
+                            <li><span>Calculator</span><br>Developed a functional calculator app with HTML, CSS, and
+                                JavaScript, focusing on user input and display logic.</li>
+                            <li><span>Kanban Board</span><br>Built a task management Kanban board, allowing users to
+                                add, delete, and move tasks across different columns.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-Ongoing</span><br>Mechi Multipurpose Campus — B.Sc. CSIT (Bachelor of Science
+                                in Computer Science and Information Technology)</li>
+                            <li><span>2023</span><br>Siddhartha Boarding Secondary School — +2 (Higher Secondary)</li>
+                            <li><span>2020</span><br>Reliance English Secondary School — 10th Grade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/3.png">
+                    <div class="layer">
+                        <h3>Simple Quiz App</h3>
+                        <p>Simple Quiz App that lets users answer multiple-choice questions and provides instant
+                            feedback. Built with HTML, CSS, and JavaScript.</p>
+                        <a href="https://monkeydnaruto.github.io/Simple-Quiz-App/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/2.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>A functional calculator app built with HTML, CSS, and JavaScript, allowing users to perform
+                            basic arithmetic operations.</p>
+                        <a href="https://monkeydnaruto.github.io/CompleteCalculator/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/1.png">
+                    <div class="layer">
+                        <h3>Drum Kit</h3>
+                        <p>An interactive Drum Kit app where users can play sounds by pressing keys or clicking on
+                            drums.</p>
+                        <a href="https://monkeydnaruto.github.io/Drum/"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -- Contact -- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> nischalshrestha324@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9826327837</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100026849266884"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nischalcrest/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nischal-shrestha-532a19214/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/MonkeyDNaruto"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 Nischal Shrestha.</p>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName) {
+            for (var tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");
+            }
+
+            for (var tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");
+            }
+
+            document.getElementById(tabName).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+</body>
+
+</html>
