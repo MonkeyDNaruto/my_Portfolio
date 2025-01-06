@@ -16,12 +16,14 @@
         <div class="container">
             <nav>
                 <img src="images/myLogo.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Student</p>
@@ -46,9 +48,9 @@
                         I’m eager to collaborate and grow within the ever-evolving field of web development.</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
                     </div>
 
                     <div class="tab-contents active-tab" id="skills">
@@ -152,14 +154,6 @@
                     </div>
                     <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <div class="contact-right">
-                    <form>
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
             </div>
         </div>
         <div class="copyright">
@@ -170,20 +164,37 @@
     <script>
         var tabLinks = document.getElementsByClassName("tab-links");
         var tabContents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabName) {
+    
+        // Tab switching function
+        function opentab(tabName, event) {
             for (var tabLink of tabLinks) {
                 tabLink.classList.remove("active-link");
             }
-
+    
             for (var tabContent of tabContents) {
                 tabContent.classList.remove("active-tab");
             }
-
+    
             document.getElementById(tabName).classList.add("active-tab");
             event.currentTarget.classList.add("active-link");
         }
+    
+        // Menu functions
+        function openmenu() {
+    var sidemenu = document.getElementById("sidemenu");
+    var hamburgerIcon = document.querySelector(".fa-bars");  
+    sidemenu.style.right = "0"; 
+    hamburgerIcon.style.display = "none"; 
+}
+    
+        function closemenu() {
+    var sidemenu = document.getElementById("sidemenu");
+    var hamburgerIcon = document.querySelector(".fa-bars");
+    sidemenu.style.right = "-200px"; 
+    hamburgerIcon.style.display = "block"; 
+}
     </script>
+    
 
 </body>
 
