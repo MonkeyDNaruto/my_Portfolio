@@ -38,6 +38,10 @@ Here are some of the projects featured in my portfolio:
    - An app for managing and tracking personal expenses, providing an overview of spending habits.
    - Built with HTML, CSS, and JavaScript.
 
+9. **[Mario Run](https://monkeydnaruto.github.io/marioGame/)**
+   - A simple Mario Run game built using HTML, CSS, and JavaScript. The game features animations, sound effects, and touch controls for mobile support.
+   - Built with HTML, CSS, and JavaScript.
+
 ## Technologies Used
 
 - **HTML5**: Structuring content for the web.
