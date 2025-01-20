@@ -42,6 +42,11 @@ Here are some of the projects featured in my portfolio:
    - A simple Mario Run game built using HTML, CSS, and JavaScript. The game features animations, sound effects, and touch controls for mobile support.
    - Built with HTML, CSS, and JavaScript.
 
+10. **[Coffee Master](https://monkeydnaruto.github.io/coffeeMaster/)**
+   - Coffee Master is a simple web-based coffee ordering application. Users can select coffee and
+   food items, enter their payment details, and place an order seamlessly.
+   - Built with HTML and CSS.
+
 ## Technologies Used
 
 - **HTML5**: Structuring content for the web.
