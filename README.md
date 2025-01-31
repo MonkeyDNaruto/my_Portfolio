@@ -43,9 +43,21 @@ Here are some of the projects featured in my portfolio:
    - Built with HTML, CSS, and JavaScript.
 
 10. **[Coffee Master](https://monkeydnaruto.github.io/coffeeMaster/)**
-   - Coffee Master is a simple web-based coffee ordering application. Users can select coffee and
-   food items, enter their payment details, and place an order seamlessly.
+   - A simple web-based coffee ordering application. Users can select coffee and food items, enter their payment details, and place an order seamlessly.
    - Built with HTML and CSS.
+
+11. **[Word Master](https://monkeydnaruto.github.io/wordMaster/)**
+   - A fun and engaging word guessing game where players try to guess the correct word by uncovering individual letters.
+   - The game tracks progress with a scoreboard and shows win/loss messages.
+   - It pulls the "word of the day" from an API to make the game different each time.
+   - Built with HTML, CSS, and JavaScript.
+
+## Features
+
+- A variety of interactive projects showcasing different web development skills.
+- Hosted on GitHub Pages for easy access.
+- Designed with responsive layouts for better user experience.
+- Built using modern web technologies such as JavaScript, HTML5, and CSS3.
 
 ## Technologies Used
 
@@ -65,10 +77,28 @@ To view these projects locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/monkeydnaruto/portfolio.git
+   git clone https://github.com/MonkeyDNaruto/my_Portfolio.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd my_Portfolio
+   ```
+3. Open the `index.html` file:
+   - On Windows:
+     ```bash
+     start index.html
+     ```
+   - On macOS:
+     ```bash
+     open index.html
+     ```
 
-   cd portfolio
+## Contact
 
-   open index.html
+If you have any questions or want to collaborate, feel free to reach out:
+- **GitHub**: [MonkeyDNaruto](https://github.com/MonkeyDNaruto)
+- **Email**: nischalshrestha324@gmail.com
+- **LinkedIn**: [Nischal Shrestha](https://www.linkedin.com/in/nischal-shrestha-532a19214/)
 
+Thank you for visiting my portfolio! 🚀
 
