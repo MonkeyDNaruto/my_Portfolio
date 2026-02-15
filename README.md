@@ -70,6 +70,14 @@ Here are some of the projects featured in my portfolio:
 - Includes dynamic UI updates, move icons, and a clean dark-themed design with a reset option.
 - Built with HTML, CSS, and JavaScript.
 
+13. **[Amazon Clone](https://monkeydnaruto.github.io/javascript-amazon-project/)**
+
+- A front-end e-commerce project inspired by :contentReference[oaicite:0]{index=0} that simulates a real online shopping experience.
+- Users can browse products, add items to the cart, checkout, and view order history.
+- Data is stored using localStorage to persist cart and orders across sessions.
+- Built with HTML, CSS, and modular JavaScript using a simulated backend structure.
+
+
 ## Features
 
 - A variety of interactive projects showcasing different web development skills.
