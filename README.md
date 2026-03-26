@@ -77,6 +77,13 @@ Here are some of the projects featured in my portfolio:
 - Data is stored using localStorage to persist cart and orders across sessions.
 - Built with HTML, CSS, and modular JavaScript using a simulated backend structure.
 
+14. **[ShopHub – React E-Commerce App](https://react-ecommerce-website-peach.vercel.app/)**
+
+- Built a full eCommerce application with product listing, authentication, cart, and checkout.
+- Implemented global state using Context API (Auth + Cart).
+- Used React Router for dynamic routing and navigation.
+- Built with React, JavaScript, and CSS.
+
 
 ## Features
 
